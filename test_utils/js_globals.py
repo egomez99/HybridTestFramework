@@ -1,4 +1,5 @@
 import sys
+sys.path.append("../")
 from os.path import join, dirname, realpath
 
 # global variables

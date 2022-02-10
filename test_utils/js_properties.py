@@ -1,7 +1,7 @@
 
-ODE12    = 'https://ode13.cms.ibm.net/admin/myworkbench'
-USERNAME = 'eduardo.gomez@ibm.com'
-PASSWORD = 'pg0m3z506Afbrkvd@pppp'
+ODE12    = 'https://www.cms.company.net/admin/myworkbench'
+USERNAME = 'eduardo.gomez@provider.com'
+PASSWORD = 'nonono@pppp'
 
 # controller details to connect to
 # controller_ip = '10.89.79.2'

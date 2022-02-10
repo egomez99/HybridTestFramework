@@ -30,11 +30,12 @@ def request_post_service_random_jokes():
         print("Received response: "+ str(json_response))
 
 
+'''
 @then('the response is successful')
 def response_success():
     print(':: Status Code :: ' + str(js_globals.rest_response.status_code))
     assert js_globals.rest_response.status_code == 200, js_globals.rest_response.text
-
+'''
 
 @given('the chuck norris service contains categories')
 def request_post_service_jokes_categories():

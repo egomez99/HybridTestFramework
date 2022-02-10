@@ -5,7 +5,6 @@ import os
 
 bat_run_dir = '/cdrive/f_drive'
 
-
 def get_file_from_remote(remote_file, local_file):
     cmd = 'ssh -p 22 -o StrictHostKeyChecking=no -o ControlPersist=60s -o ServerAliveInterval=30 -i ' \
           + js_globals.keys_dir + '/' + js_properties.key_file + ' -o PasswordAuthentication=no vxuser@' \

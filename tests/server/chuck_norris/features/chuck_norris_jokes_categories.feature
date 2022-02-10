@@ -9,4 +9,4 @@ Feature: Chuck Norris jokes categories
         Given the chuck norris service contains categories
         When the categories are "animal", "career"
         #Remaining categories: 'celebrity', 'dev', 'explicit', 'fashion', 'food', 'history', 'money', 'movie', 'music', 'political', 'religion', 'science', 'sport', 'travel'
-        Then the response is successful
+        Then the response is "successful"

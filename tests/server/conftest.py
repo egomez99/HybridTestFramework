@@ -19,12 +19,7 @@ sys.path.append(join(dirname(dirname(realpath(__file__))), 'test_utils'))
 
 # import pandas as pd
 
-from test_utils import js_globals, js_helper, js_properties
-
-
-
-
-
+#from test_utils import js_globals, js_helper, js_properties
 
 @then(parsers.parse('an error occurs containing the message "{error_message}"'))
 def verify_error_message(error_message):
@@ -34,11 +29,11 @@ def verify_error_message(error_message):
     assert json_result['stackTrace'].__contains__(error_message), 'Did not find expected error ' + error_message + \
                                                                   ' in ' + json_result['stackTrace']
 
-
-@then('the rest response is success')
-def rest_success():
-    print('response text is ' + js_globals.rest_response.text)
+@then(parsers.parse('the response is "{result}"'))
+def response_success(result):
+    print('FOR: ' + result + ' - Status Code: ' + str(js_globals.rest_response.status_code))
     assert js_globals.rest_response.status_code == 200, js_globals.rest_response.text
+    assert js_globals.rest_response.headers["Content-Type"] == "application/json;charset=UTF-8"
 
 
 @then(parsers.parse('the rest call fails with return code "{ret_code}"'))
