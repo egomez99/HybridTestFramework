@@ -21,3 +21,17 @@ active_messages = {}
 pos_event_messages = []
 keys_dir = join(join(dirname(dirname(realpath(__file__))), 'resources'), 'keys')
 scenario_name = ''
+
+# Constants
+DUCKDUCKGO_HOME = 'https://duckduckgo.com/'
+GOOGLE_HOME = 'https://www.google.com/'
+
+# Features:
+# chucknorris_jokes_categories.feature
+# chucknorris_basic_random_joke.feature
+headers = {"content-type": "application/json;charset=UTF-8",
+           "x-rapidapi-key": "yzHJio19EpmshLytTZbDBcJnVHiOp1kH3NYjsnbSXBINUshTqv"}
+base_url = 'matchilling-chuck-norris-jokes-v1.p.rapidapi.com'
+get_endpoint_jokes_random = '/jokes/random'
+get_endpoint_jokes_categories = '/jokes/categories'
+

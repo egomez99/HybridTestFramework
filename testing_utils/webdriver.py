@@ -1,12 +1,9 @@
 from selenium import webdriver
 
-
 class WebDriver:
     def __init__(self):
         self.driver = None
 
-    # Fixture for Firefox
-    # @pytest.fixture(params=["chrome", "firefox"], scope="class")
     def driver_init(request):
         if request.param == "chrome":
             web_driver = webdriver.Chrome()
