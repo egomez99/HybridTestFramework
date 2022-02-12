@@ -1,4 +1,4 @@
-# Hybrid (Selenium WEB UI/APIs/Mobile) Test Framework 
+# Hybrid (Selenium WEB UI/REST APIs/Mobile) Test Framework 
 
 ## PAP (Python Automation Project)
 
