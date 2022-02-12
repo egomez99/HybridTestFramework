@@ -1,6 +1,23 @@
 # Hybrid (Selenium WEB UI/REST APIs/Mobile) Test Framework 
 
+Technology Stack
+
+-    Python
+-    Pytest Runner
+-    Selenium
+-    Rest APIs
+-    Webdriver Manager for Python
+-    Mobile Appium (more to come)
+
+Prerequisites
+
+-    Python 3.8 - Venv
+-    Pytest + PyTest-BDD
+-    webdriver-manager 3.5.2 
+-    PyCharm 2021.3.2 (Community Edition)
+
 ## PAP (Python Automation Project)
+### Framework to perform automation testing for regression on different environments.
 
 Project folder structure
 ```
@@ -36,9 +53,8 @@ Test Framework
 ```
 
 
-### Framework to perform automation testing for regression on different environments.
 
-How to start the project?
+## How to start the project?
 
 Invoke pytest commands to run the tests: 
 
