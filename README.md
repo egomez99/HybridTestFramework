@@ -19,6 +19,8 @@ Prerequisites
 ## PAP (Python Automation Project)
 ### Framework to perform automation testing for regression on different environments.
 
+[![](https://mermaid.ink/img/pako:eNpVkM9qwzAMh19F6LRC-wI5DNokhR7GShvYIe7Bi5XZxH-CY7eUJO8-p91g00no-34CacTGCcIMvzzvJVQFs5BqW1c0hL3nhm7OdxfYbF6ng726juB4D4lNsHs5RQuLBzkfaPVM7hYV8vFDqkZCr3lonTfzE-aPPe-WJijqgoYuuP7yF1U3N0FZv7lPpek_kZ5SbF-fynPVRg3b4-Eh4BoNecOVSFeMy4RhkGSIYZZaQS2POjBkdk5q7AUPVAoVnMes5XqgNfIY3PluG8yCj_QrFYqnp5gfa_4GrT5hHQ)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNpVkM9qwzAMh19F6LRC-wI5DNokhR7GShvYIe7Bi5XZxH-CY7eUJO8-p91g00no-34CacTGCcIMvzzvJVQFs5BqW1c0hL3nhm7OdxfYbF6ng726juB4D4lNsHs5RQuLBzkfaPVM7hYV8vFDqkZCr3lonTfzE-aPPe-WJijqgoYuuP7yF1U3N0FZv7lPpek_kZ5SbF-fynPVRg3b4-Eh4BoNecOVSFeMy4RhkGSIYZZaQS2POjBkdk5q7AUPVAoVnMes5XqgNfIY3PluG8yCj_QrFYqnp5gfa_4GrT5hHQ)
+
 Project folder structure
 ```
 lalo$ tree
